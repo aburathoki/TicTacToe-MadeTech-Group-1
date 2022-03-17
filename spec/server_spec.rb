@@ -1,3 +1,4 @@
+require 'capybara/rspec'
 Capybara.app = Sinatra::Application
 
 describe 'home page', type: :feature do

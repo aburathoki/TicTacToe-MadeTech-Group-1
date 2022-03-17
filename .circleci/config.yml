@@ -9,6 +9,7 @@ jobs:
     steps:
       - checkout
       - ruby/install-deps
+      - run: gem install bundler
       - ruby/rspec-test
 
 workflows:

@@ -4,7 +4,7 @@ Capybara.app = Sinatra::Application
 
 describe 'home page', type: :feature do
   it 'displays correct text' do
-    visit '/'
+    visit 'localhost:4567'
     expect(page).to have_content("deployment with ci")
   end
 end

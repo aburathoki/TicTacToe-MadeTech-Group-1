@@ -8,4 +8,4 @@ describe 'home page', type: :feature do
     expect(page).to have_content("deployment with ci")
   end
 end
-#important comment added!
+#important comment added!more comments
